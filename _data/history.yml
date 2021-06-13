@@ -1,0 +1,42 @@
+- ver: 0.3.0
+  prev: 0.2.0
+  type: minor updates
+  item_felib:
+    - Add Explicit SSP RK scheme with higher-order accuracy and wider stability region
+    - Add IMEX schemes with higher-order accuracy
+    - Support the executions in FUGAKU as computational environment, and improve the computational performance
+  item_sample:
+    - Add 1D linear advection-diffusion equation
+    - Add 3D Euler equation with HEVI temporal scheme
+  item_model:
+    - Support a HEVI method in dynamical process
+    - Support the sponge layer in dynamical process
+    - Support the size of finite element which is variable along the vertical direction
+    - Add a component to provide the surface flux
+    - Add a component to represent sub-grid scale turbulent process (experimental)
+    - Support different time steps among the components
+    - Add a function to monitor the globally averaging values
+    - Add a tool, INTERP, to interpolate output data from DG atmospheric model
+    - Fix many bugs
+
+- ver: 0.2.0
+  prev: 0.1.0
+  type: minor updates
+  item_felib:
+    - Add a library for solving PDEs within regular 3D domains with nodal discontinuous galerkin method (nodal DGM)
+    - Fix many bugs
+  item_sample:
+    - Add sample programs of 3D linear advection problem
+  item_model:
+    - Implement a 3D nonhydrostatic atmospheric model with nodal DGM using our library
+    - Add four test cases for dynamical core (sound wave, inertia gravity wave, density current, and baroclinic wave). 
+
+- ver: 0.1.0
+  prev: 0.0.0
+  type: minor updates
+  item_felib:
+    - Add a library for solving PDEs within 1D and regular 2D domains with nodal discontinuous galerkin method (nodal DGM)
+  item_sample:
+    - Add sample programs of 1D and 2D linear advection problems using our library
+  item_model:
+    - Implement a 2D nonhydrostatic atmospheric model with nodal DGM using our library (Add two test cases for dynamical core, gravity wave and density current)

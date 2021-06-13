@@ -1,0 +1,21 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <nav class="site-nav">
+      <div class="trigger">
+        {% for my_page in site.data.navis %}
+	  {% if my_page.top %}
+        <a class="page-link" href="{{ site.baseurl | append: prep }}">{{ my_page.name }}</a>
+	  {% elsif my_page.path %}
+        <a class="page-link" href="{{ my_page.path | downcase | prepend: prep | relative_url }}/">{{ my_page.name }}</a>
+	  {% else %}
+        <a class="page-link" href="{{ my_page.name | downcase | prepend: prep | relative_url }}/">{{ my_page.name }}</a>
+	  {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+
+  </div>
+
+</header>

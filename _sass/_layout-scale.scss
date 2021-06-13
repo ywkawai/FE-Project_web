@@ -1,0 +1,14 @@
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+	background: url($baseurl + '/assets/images/bt01.png') no-repeat 0px 31px;
+	padding: 20px 0 5px 30px;
+	border-bottom: groove 3px #c5c5c5;
+	margin: 0 0 20px 0;
+    }
+
+    h3 {
+	background-color: #F5F5F5;
+    }
+}
