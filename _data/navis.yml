@@ -5,7 +5,7 @@
 
 - name: Download
 
-#- name: Documents
+- name: Documents
 
 #- name: Regional/Global atmospheric model
 #  path: scale-dg

@@ -7,4 +7,4 @@ title: Links
   * [Computational Climate Science Research Team](http://r-ccs-climate.riken.jp/top_e.htm)
   * [Scalable Computing for Advanced Library and Environment (SCALE)](https://scale.riken.jp)
 
-* [Transformaive Research Areas B: DAN Climate Science](https://dna-climate.org/)
+* [Transformaive Research Areas B: DNA Climate Science](https://dna-climate.org/)
