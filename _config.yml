@@ -21,8 +21,8 @@
 # Site settings
 title: FE-Project
 email: yuta.kawai_at_riken.jp
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ywkawai.github.io/FE-Project_web" # the base hostname & protocol for your site
+baseurl: "/FE-Project_web" # the subpath of your site, e.g. /blog
+url: "https://ywkawai.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
