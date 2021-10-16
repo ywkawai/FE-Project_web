@@ -7,7 +7,7 @@ SCALE-DG is a three-dimensional (3D) regional and global atmospheric model
 in which both of the horizontal and the vertical discretizations are based on the discontinuous Galerkin (DG) method.
 
 Now, only the dynamical process has been implemented in addition to simple turbulent models.
-In the near feature, using the [SCALE library](https://scale.riken.jp) physical processes such as micro cloud physics and radiation will be supported.
+In the near feature, using the [SCALE library](https://scale.riken.jp) physical processes such as cloud microphysics and radiation will be supported.
 
 ## Brief Description
 
