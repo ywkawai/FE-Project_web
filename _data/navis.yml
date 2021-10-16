@@ -7,10 +7,11 @@
 
 - name: Documents
 
-#- name: Regional/Global atmospheric model
-#  path: scale-dg
+- name: SCALE-DG
+  path: scale-dg
 
 #- name: Global shallow water model
 #  path: scale-dg-shallow-water
 
+- name: Gallery
 - name: Links

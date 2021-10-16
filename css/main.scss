@@ -54,3 +54,32 @@ $baseurl: "{{ site.baseurl }}";
 	"layout-scale",
         "syntax-highlighting"
 ;
+
+// --- For movies
+
+.youtube {
+    position: relative;
+    height: 0;
+    margin-bottom: 20px;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 600px) {
+    .container{
+        display: flex;
+        margin-bottom: 1.5rem;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .item{
+        flex-basis: 49.5%;
+    }
+}
+  
