@@ -6,6 +6,7 @@ title: Install Document
 ## Install Depending Softwares
 
 ### Required Softwares
+
 * Fortran compiler supporting Fortran 2008. 
 * MPI library
 * LAPACK
@@ -13,22 +14,25 @@ title: Install Document
 * [SCALE library](https://scale.riken.jp). 
 
 ### Optional Softwares
+
 * visualization
-  * matplotlib
+  * [matplotlib](https://matplotlib.org)
   * [gpview (GPhys)](http://ruby.gfd-dennou.org/products/gphys/)
 
 ## Install SCALE
 See [Users Guide of SCALE](https://scale.riken.jp/documents/index.html#users-guide).
 
 ## Build FE-Project
+
 1. preparation
+
   - set SCALE_FE_SYS environmental variable (see the sysdef directory)
 
   `% export SCALE_FE_SYS=MacOSX-gnu-ompi`   (for example)
 
   - set a directory in which SCALE library is contained
 
-  `% export SCALE="~/workspace/scale-5.4.3/"`   (for example)
+  `% export SCALE="~/workspace/scale-5.4.4/"`   (for example)
 
   - If you use the develop version of SCALE library, set a variable as
 
@@ -63,6 +67,4 @@ See [Users Guide of SCALE](https://scale.riken.jp/documents/index.html#users-gui
 
  `% make run`
 
- In the directory of 'visualize', some python scripts with matplotlib 
- are prepared for visualizing simulation results. 
-(END)
+ In the directory of 'visualize', some python scripts with matplotlib are prepared for visualizing simulation results.

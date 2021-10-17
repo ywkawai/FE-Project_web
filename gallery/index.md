@@ -5,7 +5,7 @@ title: Gallery (under construction)
 
 <div class="container">
   <div class="item">
-    This page summarizes links of pages demonstrating results of various numerical experiments using our DG models. In each page, the experiment setup and model configuration are also provided in addition to the simulation results.
+    This page summarizes links to pages where we demonstrate results of various numerical experiments using our DG models. In each page, the experiment setup and model configuration are also provided in addition to the simulation results.
   </div>
   <div class="item">  
     <div class="youtube">
