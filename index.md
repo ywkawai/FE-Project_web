@@ -25,7 +25,7 @@ Affiliation: *1: [RIKEN Center for Computational Science](http://www.r-ccs.riken
 # Acknowledgements
 
 This project is supported by 
-[the Transformaive Research Areas B: DNA Climate Scienc](https://dna-climate.org/) (MEXT KAKENHI Grant Number JP20H05731) 
+[the Transformaive Research Areas B: DNA Climate Science](https://dna-climate.org/) (MEXT KAKENHI Grant Number JP20H05731) 
 and 
 JST AIP Grant Number JPMJCR19U2. 
 The model development and numerical experiments are
