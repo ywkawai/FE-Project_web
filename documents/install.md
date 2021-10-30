@@ -7,11 +7,11 @@ title: Install Document
 
 ### Required Softwares
 
-* Fortran compiler supporting Fortran 2008. 
+* Fortran compiler supporting Fortran 2008
 * MPI library
 * LAPACK
 * NetCDF
-* [SCALE library](https://scale.riken.jp). 
+* [SCALE library](https://scale.riken.jp)
 
 ### Optional Softwares
 
@@ -56,9 +56,9 @@ See [Users Guide of SCALE](https://scale.riken.jp/documents/index.html#users-gui
 
  `% make`
 
-## Compile and run dynamical core
+## Compile and run atmospheric models
 
- If you want to build a 3-dimensional nonhydrostatic atmospheric model, 
+ If you want to build a three-dimensional nonhydrostatic atmospheric model, 
  and conduct a idealized test case, such as density current, using it, 
  
  `% cd rootdir/model/atm_nonhydro3d/test/case/density_current`

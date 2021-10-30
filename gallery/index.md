@@ -17,37 +17,38 @@ title: Gallery (under construction)
 ### Simple examples and source codes
 
 * linear advection equation
-  * 1D, 2D plane, 3D plane, 2D global, 3D global
+  *  <a href="{{ '/gallery/simple/linear_advection_1d/' | relative_url }}">1D</a>, 2D plane, 3D plane, 2D global, 3D global
 * linear diffusion equation
   * 1D
 * Euler equation
 
 ### Simulations with regional domains using SCALE-DG
 
-* tracer advection
-* sound wave
-* inertia gravity wave
-* rising warm bubble
-* density_current
-* mountain wave
-* planetary boundary layer turbulence
-* baroclinic wave
+* Tracer advection
+* Sound wave
+* Inertia gravity wave
+* Rising warm bubble
+* Density current
+* Mountain wave
+* Planetary boundary layer turbulence
+* Baroclinic wave in a chanel domain
 
 ### Simulations with global domains using SCALE-DG
 
-* tracer advection
-* sound wave
-* inertia gravity wave
-* mountain wave
-* equatorial wave
-* baroclinic wave
+* Tracer advection
+* Sound wave
+* Inertia gravity wave
+* Mountain wave
+* Equatorial wave
+* Baroclinic wave
 * Held Suarez test
 
 ### Simulations using global shallow water DG model
 
-* standard test cases proposed by Williamson (1992)
-  * case 2: advection on sphere
-  * case 5: 
-  * case 6:
-* barotropic instability
-* cross polar flow
+* Standard test cases proposed by Williamson (1992)
+  * case 1: advection of cosine bell
+  * case 2: steady state of nonlinear zonal geostrophic flow
+  * case 5: zonal flow over an isolated mountain
+  * case 6: Rossby-Haurwitz wave
+* Barotropic instability
+* Cross polar flow
