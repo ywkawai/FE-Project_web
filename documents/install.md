@@ -32,7 +32,7 @@ See [Users Guide of SCALE](https://scale.riken.jp/documents/index.html#users-gui
 
   - set a directory in which SCALE library is contained
 
-  `% export SCALE="~/workspace/scale-5.4.4/"`   (for example)
+  `% export SCALE="~/workspace/scale-5.4.5/"`   (for example)
 
   - If you use the develop version of SCALE library, set a variable as
 

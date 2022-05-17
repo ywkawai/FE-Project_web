@@ -1,3 +1,25 @@
+- ver: 0.6.0
+  prev: 0.5.0
+  type: minor updates
+  item_felib:
+    - Add tracer advection scheme with a limiter to preserve the nonnegativity 
+    - Add a precipitation scheme with a limiter to preserve the nonnegativity 
+    - Add a turbulent model for tracer varaibles
+    - Fix a bug in defining axis information with 1D output data
+    - Fix a subroutine to convert Shu-Osher matrix to Butcher matrix
+  item_sample:
+    - 3D linear advection equation using 3D cubed sphere mesh
+    - An eigenvalue analysis of 1D linear advection problem when DGM is applied
+  item_model:
+    - Available for mosit process in 3D regional model. Support the Kesser scheme as a cloud miscrophysic scheme
+    - Available for eddy diffusion of tracer varaibles in regional DG model
+    - Add test suites for 3D regional model (tracer advection, rising warm bubble with moist process)
+    - Add test suites for 3D global model (tracer advection, dynamical core test considered tidally locked Earth atmosphere)
+    - Modify the computational performance of HEVI scheme.
+    - Modify the forcing function in the Held Suarez test case
+    - Support the conversion of wind components in regrid tool
+    - Fix a bug of regriding data with 3D structured grid
+
 - ver: 0.5.0
   prev: 0.4.0
   type: minor updates
@@ -10,11 +32,11 @@
     - An eigenvalue analysis of 1D linear advection problem when DGM is applied
   item_model:
     - Implement a global shallow water model using 2D cubed sphere mesh.
-    - Implement a global nonhydrostatic fully-compressible atmospheric model using 3D cubed sphere mesh (both of HEVE and HEVI are supported).
-    - Treat topography in regional and global atmospheric model using the terrain following coordinate.
+    - Implement a global nonhydrostatic fully-compressible atmospheric model using 3D cubed sphere mesh (both of HEVE and HEVI are supported)
+    - Treat topography in regional and global atmospheric model using the terrain following coordinate
     - Add test suites for global shallow water model (standard cases of Williamson et al.(1992), barotropic instability (Galewsky et al., 2004), and cross-polar flow (Donald and Bates, 1989))
     - Add test suites for 3D global atmospheric model (sound wave, inertia gravity wave, baroclinic wave, mountain wave, and equatorial wave described in Tomita et al. (2004), and the Held Suarez test)
-    - Implement a new regrid tool by unifying INTERP tool into cs2lonlat tool.
+    - Implement a new regrid tool by unifying INTERP tool into cs2lonlat tool
 
 - ver: 0.4.0
   prev: 0.3.0
@@ -60,7 +82,7 @@
     - Add sample programs of 3D linear advection problem
   item_model:
     - Implement a 3D nonhydrostatic atmospheric model with nodal DGM using our library
-    - Add four test cases for dynamical core (sound wave, inertia gravity wave, density current, and baroclinic wave). 
+    - Add four test cases for dynamical core (sound wave, inertia gravity wave, density current, and baroclinic wave)
 
 - ver: 0.1.0
   prev: 0.0.0
