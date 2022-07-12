@@ -36,7 +36,7 @@ In the near feature, using the [SCALE library](https://scale.riken.jp) physical 
   * horizontally explicit and vertically implicit (HEVI)
     * implicit and explicit RK schemes: ARK232 (Giraldo et al., 2013), ARK324 (Kennedy and Carpenter, 2003)
 * Tracer transport
-  * Preserving the non-negativity is ensured by a limiter (Ligjt and Durran, 2016) and SSP RK schemes in conjunction with fundamental spatial discretization by nodal DGM.
+  * Preserving the non-negativity is ensured by a limiter (Light and Durran, 2016) and SSP RK schemes in conjunction with fundamental spatial discretization by nodal DGM.
 
 ### Physical processes
 
