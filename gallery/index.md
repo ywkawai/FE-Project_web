@@ -17,7 +17,7 @@ title: Gallery (under construction)
 ### Simple examples and source codes
 
 * linear advection equation
-  *  <a href="{{ '/gallery/simple/linear_advection_1d/' | relative_url }}">1D</a>, 2D plane, 3D plane, 2D global, 3D global
+  *  <a href="{{ '/gallery/simple/linear_advection_1d/' | relative_url }}">1D</a>, <a href="{{ '/gallery/simple/linear_advection_2d/' | relative_url }}">2D plane</a>, 3D plane, 2D global, 3D global
 * linear diffusion equation
   * 1D
 * Euler equation
@@ -29,6 +29,7 @@ title: Gallery (under construction)
 * Inertia gravity wave
 * Rising warm bubble
 * Density current
+* Kelvin Helmholtz wave
 * Mountain wave
 * Planetary boundary layer turbulence
 * Baroclinic wave in a chanel domain
