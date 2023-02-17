@@ -18,7 +18,7 @@ title: Download
 Version : {{ ver }}
 
 * update: {{ site.data.currentversion.update }}
-* source file: [FE-Project-{{ ver }}.tar.gz]({{ dlsite }}/FE-Project-{{ ver }}.tar.gz)
+* source file: [FE-Project-{{ ver }}.tar.gz]({{ dlsite }}/v{{ ver }}.tar.gz)
   * [GitHub repository](https://github.com/ywkawai/FE-Project/releases/tag/v{{ site.data.currentversion.version }})
 
 ### Old versions
