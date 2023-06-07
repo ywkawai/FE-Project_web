@@ -27,12 +27,12 @@ title: Gallery (under construction)
 * Tracer advection
 * Sound wave
 * Inertia gravity wave
-* Rising warm bubble
+* <a href="{{ '/gallery/regional/rising_warm_bubble/' | relative_url }}">Rising warm bubble</a>
 * Density current
 * Kelvin Helmholtz wave
 * Mountain wave
-* Planetary boundary layer turbulence
-* Baroclinic wave in a chanel domain
+* <a href="{{ '/gallery/regional/planetary_boundary_layer_tb/' | relative_url }}">Planetary boundary layer turbulence</a>
+* <a href="{{ '/gallery/regional/baroclinic_instability/' | relative_url }}">Baroclinic wave</a>
 
 ### Simulations with global domains using SCALE-DG
 
