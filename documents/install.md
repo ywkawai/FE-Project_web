@@ -3,9 +3,9 @@ layout: page
 title: Install Document
 ---
 
-## Install Depending Softwares
+## Dependency Installation
 
-### Required Softwares
+### Required software
 
 * Fortran compiler supporting Fortran 2008
 * MPI library
@@ -13,36 +13,40 @@ title: Install Document
 * NetCDF
 * [SCALE library](https://scale.riken.jp)
 
-### Optional Softwares
+### Optional software
 
 * visualization
   * [matplotlib](https://matplotlib.org)
   * [gpview (GPhys)](http://ruby.gfd-dennou.org/products/gphys/)
 
-## Install SCALE
+## Install SCALE library
 See [Users Guide of SCALE](https://scale.riken.jp/documents/index.html#users-guide).
 
 ## Build FE-Project
 
-1. preparation
+1. Preparation
 
-  - set SCALE_FE_SYS environmental variable (see the sysdef directory)
+  - Set SCALE_FE_SYS environmental variable (see the sysdef directory)
 
-  `% export SCALE_FE_SYS=MacOSX-gnu-ompi`   (for example)
+  `% export SCALE_FE_SYS=MacOSX-gnu-ompi` (for example)
 
-  - set a directory in which SCALE library is contained
+  - Set a directory in which SCALE library is contained
 
-  `% export SCALE="~/workspace/scale-5.4.5/"`   (for example)
+  `% export SCALE="~/workspace/scale-5.4.5/"` (for example)
 
-  - If you use the develop version of SCALE library, set a variable as
+  - If a developing version of SCALE library is used, set a variable as
 
   `% export SCALE_DEVELOP=T`
 
-  - set a directory in which NetCDF library is contained (if necessary).
+  - If you would like to enable a thread parallelization with OpenMP, set a variable as 
 
-  `% export NETCDF="/ap/netcdf4-fortran/4.7.3/"`   (for example)
+  `% export SCALE_ENABLE_OPENMP=T`
 
-2. build the library in the directory of FElib
+  - Set a directory in which a NetCDF library is contained (if necessary).
+
+  `% export NETCDF="/ap/netcdf4-fortran/4.7.3/"` (for example)
+
+2. Build the library in the directory of FElib
 
  `% cd rootdir/FElib/src/`
 
@@ -59,7 +63,7 @@ See [Users Guide of SCALE](https://scale.riken.jp/documents/index.html#users-gui
 ## Compile and run atmospheric models
 
  If you want to build a three-dimensional nonhydrostatic atmospheric model, 
- and conduct a idealized test case, such as density current, using it, 
+ and conduct an idealized test case, such as density current, using it, 
  
  `% cd rootdir/model/atm_nonhydro3d/test/case/density_current`
 
