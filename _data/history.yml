@@ -1,3 +1,24 @@
+- ver: 0.8.0
+  prev: 0.7.0
+  type: minor updates
+  item_felib:
+    - Support general curvelinear coordinates in the Smagorinsky-Lilly turbulent model
+    - Support to HEVE (GLOBALNONHYDRO3D_RHOT_HEVE) without a shallow atmosphere approximation
+    - Improve numerical stability of HEVI scheme when topography has a steep slope
+    - Modify numerical stability by changing the strategy to apply a modal filter when using HEVI scheme
+    - Modify the method of determining the most adjacent node in MeshUtil3D_BuildInteriorMap subroutine
+    - Fix a bug in mapping indecies with patch boundaries when we use a vertical axis with positive down
+    - Fix eigenvalues with numerical diffusion for tracer advection when coordinate transformation is considered
+  item_sample:
+  item_model:
+    - Enable to input a topography data file when generating initial data
+    - Add a user interface to set tendencies before update subroutines in components
+    - Enable to specify postfix to build library and binary files
+    - Put global attributes with time information into output files from regrid tool 
+    - Available to specify a name of vertical coordinate variable in regrid tool
+    - Modify 2D data regrids when the number of MPI processes for the input and output data is different
+    - Fix a bug in procedure overriding of "update" subroutine in mod_user.F90
+
 - ver: 0.7.0
   prev: 0.6.0
   type: minor updates
