@@ -39,7 +39,7 @@ program linear_adv_eq
   type(MeshField1D), target :: u
 
   type(MeshFieldComm1D) :: fields_comm
-  type(MeshFieldContainer) :: field_list(1)
+  type(MeshFieldContainer), save :: field_list(1)
 
   type(timeint_rk), allocatable :: tinteg_lc(:)
   integer :: nowstep
