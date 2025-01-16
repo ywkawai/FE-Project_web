@@ -40,7 +40,7 @@ program linear_adv_eq
   type(MeshField2D), target :: u
 
   type(MeshFieldCommRectDom2D) :: fields_comm
-  type(MeshFieldContainer) :: field_list(1)
+  type(MeshFieldContainer), save :: field_list(1)
 
   type(timeint_rk), allocatable :: tinteg_lc(:)
   integer :: nowstep
