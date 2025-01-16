@@ -23,25 +23,25 @@ In the near feature, using the [SCALE library](https://scale.riken.jp) physical 
 ### Dynamical core
 * Governing equation: 3D fully compressible non-hydrostatic equations
 * Grid system: hexahedral finite element and horizontally curvilinear coordinate system
-  * for the global mode, cubed sphere coordinate is specifically adopted.
+  * For the global mode, cubed sphere coordinate is specifically adopted
   * Topography can be treated using a terrain-following coordinate
 * Spatial discretization: nodal discontinuous Galerkin method (e.g., Hesthave and Warburton, 2007)
   * Polynomial order associated with numerical accuracy can be arbitrarily chosen.
   * Numerical flux: Rusanov flux
   * Stabilization mechanisms: numerical diffusion with numerical flux, modal filtering
 * Temporal discretization: various type of Runge-Kutta (RK) schemes
-  * full explicit (horizontally and vertically explicit; HEVE)
-    * classical 4s4o RK scheme (where 4s4o means 4th-order and 4 stage)
-    * strong-stability preserving (SSP) RK schemes: 3s3o, 4s3o, 5s3o (Higueras and Roldan, 2018), 10s4o (Ketcheson, 2008)
-  * horizontally explicit and vertically implicit (HEVI)
-    * implicit and explicit RK schemes: ARK232 (Giraldo et al., 2013), ARK324 (Kennedy and Carpenter, 2003)
+  * Full explicit (horizontally and vertically explicit; HEVE)
+    * Classical 4s4o RK scheme (where 4s4o means 4th-order and 4 stage)
+    * Strong-stability preserving (SSP) RK schemes: 3s3o, 4s3o, 5s3o (Higueras and Roldan, 2018), 10s4o (Ketcheson, 2008)
+  * Horizontally explicit and vertically implicit (HEVI)
+    * Implicit and explicit RK schemes: ARK232 (Giraldo et al., 2013), ARK324 (Kennedy and Carpenter, 2003)
 * Tracer transport
   * Preserving the non-negativity is ensured by a limiter (Light and Durran, 2016) and SSP RK schemes in conjunction with fundamental spatial discretization by nodal DGM.
 
 ### Physical processes
 
 * Turbulence process
-  * Smagorinsky (1963) and Lilly (1962)-type sub-grid scale model corrected by Brown et al. (1994) and Scotti et al. (1993) (available only in regional model) 
+  * Smagorinsky (1963) and Lilly (1962)-type sub-grid scale model corrected by Brown et al. (1994) and Scotti et al. (1993)
 
 * Cloud microphysics (using the [SCALE library](https://scale.riken.jp))
   * 3-class 1 moment bulk scheme (Kessler 1969) 
