@@ -55,6 +55,11 @@ Version : {{ ver }}
       <li>{{ item }}</li>
   {% endfor %}</ul></li>
     </ul>
+    <ul>
+    <li>Others<ul>{% for item in ver.item_others %}
+      <li>{{ item }}</li>
+  {% endfor %}</ul></li>
+    </ul> 
   </div>
 </details>
 {% endfor %}

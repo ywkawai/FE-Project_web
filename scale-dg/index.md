@@ -23,12 +23,12 @@ In the near feature, using the [SCALE library](https://scale.riken.jp) physical 
 ### Dynamical core
 * Governing equation: 3D fully compressible non-hydrostatic equations
 * Grid system: hexahedral finite element and horizontally curvilinear coordinate system
-  * For the global mode, cubed sphere coordinate is specifically adopted
-  * Topography can be treated using a terrain-following coordinate
+  * For the global mode, cubed sphere coordinates are used
+  * Topography is treated using a terrain-following coordinate
 * Spatial discretization: nodal discontinuous Galerkin method (e.g., Hesthave and Warburton, 2007)
   * Polynomial order associated with numerical accuracy can be arbitrarily chosen.
   * Numerical flux: Rusanov flux
-  * Stabilization mechanisms: numerical diffusion with numerical flux, modal filtering
+  * Stabilization mechanisms: Inherent numerical dissipation with numerical fluxes and explicit modal filtering
 * Temporal discretization: various type of Runge-Kutta (RK) schemes
   * Full explicit (horizontally and vertically explicit; HEVE)
     * Classical 4s4o RK scheme (where 4s4o means 4th-order and 4 stage)
@@ -45,6 +45,9 @@ In the near feature, using the [SCALE library](https://scale.riken.jp) physical 
 
 * Cloud microphysics (using the [SCALE library](https://scale.riken.jp))
   * 3-class 1 moment bulk scheme (Kessler 1969) 
+
+* Surface flux scheme
+  * Simplified bulk formulation of momentum, heat, and latent flux with constant coefficients for idealized experiments
 
 ## Documents
 
