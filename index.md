@@ -17,7 +17,7 @@ lang: en
 # What is FE-Project?
 
 <p>
-This project provides a library and sample programs for the discontinuous Galerkin methods (DGM). Futhermore, dynamical cores of atmospheric model with DGM will be provided. 
+This project provides a library and sample programs for the discontinuous Galerkin methods (DGM). Futheremore, we provide an atmospheric model with a regional/global dynamical core based on DGM, SCALE-DG. 
 </p>
 
 ![Top Image]({{ '/assets/images/FE-project_top.png' | relative_url }})
