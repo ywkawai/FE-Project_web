@@ -1,0 +1,27 @@
+general:
+
+- authors: Kawai, Y. and H. Tomita
+  year: 2025
+  title: "Development of a high-order global dynamical core using the discontinuous Galerkin method for an atmospheric large-eddy simulation (LES) and proposal of test cases: SCALE-DG v0.8.0"
+  journal: Geosci. Model Dev.
+  volume: 18
+  pages: 725-762
+  doi: 10.5194/gmd-18-725-2025
+
+- authors: Kawai, Y. and H. Tomita
+  year: 2023
+  title: Numerical accuracy necessary for large-eddy simulation of planetary boundary layer turbulence using discontinuous Galerkin method
+  journal: Mon. Wea. Rev.
+  volume: 151
+  pages: 1479-1508
+  doi: 10.1175/MWR-D-22-0245.1
+
+papers:
+
+- authors: Ren, X., Y. Kawai, H. Tomita, S. Nishizawa, T. Katagiri, M. Kawai, T. Hoshino, and T. Nagai
+  year: 2024
+  title: Implementing Fast Modal Filtering of SCALE-DG
+  journal: IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops)
+  volume: 
+  pages: 150-151
+  doi: 10.1109/CLUSTERWorkshops61563.2024.00033
