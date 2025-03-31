@@ -16,10 +16,10 @@ title: Gallery (under construction)
 
 ### Simple examples and source codes
 
-* linear advection equation
+* Linear advection equation
   *  <a href="{{ '/gallery/simple/linear_advection_1d/' | relative_url }}">1D</a>, <a href="{{ '/gallery/simple/linear_advection_2d/' | relative_url }}">2D plane</a>, 3D plane, 2D global, 3D global
-* linear diffusion equation
-  * 1D
+* Linear advection-diffusion equation
+  * <a href="{{ '/gallery/simple/linear_adv_diffusion_1d/' | relative_url }}">1D</a>
 * Euler equation
 
 ### Simulations with regional domains using SCALE-DG

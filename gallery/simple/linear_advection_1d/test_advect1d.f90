@@ -7,7 +7,7 @@
 !! @author Yuta Kawai
 !!
 !<
-#include "scalelib.h"
+#include "scaleFElib.h"
 program linear_adv_eq
   use scale_precision
   use scale_io
