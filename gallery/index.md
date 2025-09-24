@@ -30,7 +30,7 @@ title: Gallery (under construction)
 * <a href="{{ '/gallery/regional/rising_warm_bubble/' | relative_url }}">Rising warm bubble</a>
 * Density current
 * Kelvin Helmholtz wave
-* Mountain wave
+* <a href="{{ '/gallery/regional/mountain_wave/' | relative_url }}">Mountain wave</a>
 * <a href="{{ '/gallery/regional/planetary_boundary_layer_tb/' | relative_url }}">Planetary boundary layer turbulence</a>
 * <a href="{{ '/gallery/regional/baroclinic_instability/' | relative_url }}">Baroclinic wave</a>
 
