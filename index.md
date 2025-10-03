@@ -47,3 +47,4 @@ The developers of FE-Project are grateful to Team SCALE for maintaining the SCAL
 and developers of GFD-Dennou Club providing visualization tools. 
 We also thank Dr. Seiya Nishizawa, Hiroaki Miura, Keiichi Ishioka, Takahiro Katagiri, and Yukio Masumoto 
 for their valuable comments and suggestions. 
+Dr. Ryuji Yoshida provides us a wonderful logo for SCALE-DG. 
