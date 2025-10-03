@@ -25,7 +25,7 @@ In the near feature, using the [SCALE library](https://scale.riken.jp) physical 
 * Grid system: hexahedral finite element and horizontally curvilinear coordinate system
   * For the global mode, cubed sphere coordinates are used
   * Topography is treated using a terrain-following coordinate
-* Spatial discretization: nodal discontinuous Galerkin method (e.g., Hesthave and Warburton, 2007)
+* Spatial discretization: nodal discontinuous Galerkin method (e.g., Hesthaven and Warburton, 2007)
   * Polynomial order associated with numerical accuracy can be arbitrarily chosen.
   * Numerical flux: Rusanov flux
   * Stabilization mechanisms: Inherent numerical dissipation with numerical fluxes and explicit modal filtering
@@ -44,7 +44,8 @@ In the near feature, using the [SCALE library](https://scale.riken.jp) physical 
   * Smagorinsky (1963) and Lilly (1962)-type sub-grid scale model corrected by Brown et al. (1994) and Scotti et al. (1993)
 
 * Cloud microphysics (using the [SCALE library](https://scale.riken.jp))
-  * 3-class 1 moment bulk scheme (Kessler 1969) 
+  * 3-class 1 moment bulk scheme (Kessler 1969)
+  * 6-class 1 moment bulk scheme (Tomita 2008)
 
 * Surface flux scheme
   * Simplified bulk formulation of momentum, heat, and latent flux with constant coefficients for idealized experiments

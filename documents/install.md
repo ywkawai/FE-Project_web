@@ -16,7 +16,7 @@ title: Install Document
 ### Optional software
 
 * visualization
-  * [matplotlib](https://matplotlib.org)
+  * [Xarray](https://xarray.dev), [matplotlib](https://matplotlib.org)
   * [gpview (GPhys)](http://ruby.gfd-dennou.org/products/gphys/)
 
 ## Install SCALE library

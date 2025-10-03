@@ -30,7 +30,7 @@ This project provides a library and sample programs for the discontinuous Galerk
 - Project design and Scientific decision 
   - Yuta Kawai<sup>*1</sup>  and Hirofumi Tomita<sup>*1</sup>  
 - Investigation and improvement of computational performance 
-  - Xuanzhengbo Ren<sup>*2</sup>
+  - Xuanzhengbo Ren<sup>*2,1</sup>
 
 Affiliation: *1: [RIKEN Center for Computational Science](http://www.r-ccs.riken.jp/en/), Kobe in Japan; *2: Nagoya University, Nagoya in Japan
 

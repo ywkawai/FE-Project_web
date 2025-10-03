@@ -1,3 +1,26 @@
+- ver: 1.0.0
+  prev: 0.9.0
+  type: major updates
+  item_felib:
+    - Enable to hide a wait with MPI communication by overlapping elementwise computations in a regional HEVE solve
+    - Add a module and sample program for a Smoothness-Increasing Accuracy-Increasing (SIAC) filter
+    - Improve computational performance of vertical implicit solver in DG HEVI scheme
+    - Speed up the calculation of tracer advection
+    - Improve computational performance of a module to manage temporal integrations using RK schemes
+    - Fix a bug of post process when MPI_wait is called at any timing in 2D & 3D global model modes
+  item_sample:
+    - Update configuration files for sample programs   
+  item_model:
+    - Support Tomita08 as a micro cloud physics schemes provided in SCALE library
+    - Add a tool to perform spectral analysis using DG data in 3D regional meshes
+    - Update configuration files for test cases of atmospheric model
+    - Modify build system to shorten the compilation time for each test case in atmospheric model
+    - Ensure to obtain same results when random numbers are used with a fixed seed for initial conditions of test cases
+    - Fix a bug in initializing tracer variables for the case of ATMOS_HYDROMETOR_dry=T but QA > 0
+    - Add a model description and a users guide for SCALE-DG (experimental)
+  item_others:
+    - Provide a model description and a users guide in a web page 
+
 - ver: 0.9.0
   prev: 0.8.0
   type: minor updates

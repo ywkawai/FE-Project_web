@@ -44,5 +44,4 @@ In next section, we show results in the case of using the following model parame
 
 - Hesthaven, J. S., and T. Warburton, 2007: Nodal discontinuous Galerkin methods: algorithms, analysis, and applications, Springer Science & Business Media
 
-- Robert, A. (1993): Bubble convection experiments with a semi-implicit formulation of the Euler equations, Journal of the Atmospheric
-Sciences, 50, 1865–1873. 
+- Robert, A. (1993): Bubble convection experiments with a semi-implicit formulation of the Euler equations, Journal of the Atmospheric Sciences, 50, 1865–1873. 
