@@ -51,7 +51,7 @@
   prev: 0.7.0
   type: minor updates
   item_felib:
-    - Support general curvelinear coordinates in the Smagorinsky-Lilly turbulent model
+    - Support general curvilinear coordinates in the Smagorinsky-Lilly turbulent model
     - Support to HEVE (GLOBALNONHYDRO3D_RHOT_HEVE) without a shallow atmosphere approximation
     - Improve numerical stability of HEVI scheme when topography has a steep slope
     - Modify numerical stability by changing the strategy to apply a modal filter when using HEVI scheme
@@ -89,7 +89,7 @@
   item_model:
     - Enhance utility subroutines in generating initial data
     - Support the energy monitor in cubed-sphere mesh in atmospheric model
-    - Add test suites for 3D regional atmospheric model (isentropic vortex, Kelvin Helmholtz wave, mountai wave (linear nonhydrostatic case (Giraldo and Restelli 2008) and Schaer-type mountain case (Schär et al. 2002)))
+    - Add test suites for 3D regional atmospheric model (isentropic vortex, Kelvin Helmholtz wave, mountain wave (linear nonhydrostatic case (Giraldo and Restelli 2008) and Schaer-type mountain case (Schär et al. 2002)))
     - Modify interfaces for user-defined module
     - Remove an extra call of IO_setup
   item_others:
@@ -100,15 +100,15 @@
   item_felib:
     - Add tracer advection scheme with a limiter to preserve the nonnegativity 
     - Add a precipitation scheme with a limiter to preserve the nonnegativity 
-    - Add a turbulent model for tracer varaibles
+    - Add a turbulent model for tracer variables
     - Fix a bug in defining axis information with 1D output data
     - Fix a subroutine to convert Shu-Osher matrix to Butcher matrix
   item_sample:
     - 3D linear advection equation using 3D cubed sphere mesh
     - An eigenvalue analysis of 1D linear advection problem when DGM is applied
   item_model:
-    - Available for mosit process in 3D regional model. Support the Kesser scheme as a cloud miscrophysic scheme
-    - Available for eddy diffusion of tracer varaibles in regional DG model
+    - Available for moist process in 3D regional model. Support the Kesser scheme as a cloud microphysics scheme
+    - Available for eddy diffusion of tracer variables in regional DG model
     - Add test suites for 3D regional model (tracer advection, rising warm bubble with moist process)
     - Add test suites for 3D global model (tracer advection, dynamical core test considered tidally locked Earth atmosphere)
     - Modify the computational performance of HEVI scheme.
@@ -176,7 +176,7 @@
   prev: 0.1.0
   type: minor updates
   item_felib:
-    - Add a library for solving PDEs within regular 3D domains with nodal discontinuous galerkin method (nodal DGM)
+    - Add a library for solving PDEs within regular 3D domains with nodal discontinuous Galerkin method (nodal DGM)
     - Fix many bugs
   item_sample:
     - Add sample programs of 3D linear advection problem
@@ -189,7 +189,7 @@
   prev: 0.0.0
   type: minor updates
   item_felib:
-    - Add a library for solving PDEs within 1D and regular 2D domains with nodal discontinuous galerkin method (nodal DGM)
+    - Add a library for solving PDEs within 1D and regular 2D domains with nodal discontinuous Galerkin method (nodal DGM)
   item_sample:
     - Add sample programs of 1D and 2D linear advection problems using our library
   item_model:
