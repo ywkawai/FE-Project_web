@@ -31,7 +31,7 @@ In the near feature, using the [SCALE library](https://scale.riken.jp) physical 
   * Stabilization mechanisms: Inherent numerical dissipation with numerical fluxes and explicit modal filtering
 * Temporal discretization: various type of Runge-Kutta (RK) schemes
   * Full explicit (horizontally and vertically explicit; HEVE)
-    * Classical 4s4o RK scheme (where 4s4o means 4th-order and 4 stage)
+    * Classical 4s4o RK scheme (where 4s4o means 4 stage and 4th-order accuracy)
     * Strong-stability preserving (SSP) RK schemes: 3s3o, 4s3o, 5s3o (Higueras and Roldan, 2018), 10s4o (Ketcheson, 2008)
   * Horizontally explicit and vertically implicit (HEVI)
     * Implicit and explicit RK schemes: ARK232 (Giraldo et al., 2013), ARK324 (Kennedy and Carpenter, 2003)
@@ -56,5 +56,5 @@ The description of SCALE-DG is available at [Document page]({{ '/documents/' | r
 
 ## Example of numerical experiments
 
-Simulation results of standard test cases such as baroclinic wave and Held Suarez experiments 
+Simulation results of standard test cases such as baroclinic wave and Held-Suarez experiments 
 are shown in [Gallery page]({{ '/gallery/' | relative_url }}).

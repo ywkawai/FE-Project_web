@@ -17,6 +17,14 @@ general:
   doi: 10.1175/MWR-D-22-0245.1
 
 papers:
+- authors: Ren, X., Y. Kawai, T. Hoshino, H. Tomita, S., T. Katagiri,  D. Mukunoki, S. Nishizawa
+  year: 2026
+  title: Performance Evaluation of Loop Body Splitting for Fast Modal Filtering in SCALE-DG on A64FX
+  journal: IEEE Access
+  volume: 
+  pages: 
+  doi: 10.1109/ACCESS.2026.3675604
+
 - authors: Ren, X., Y. Kawai, H. Tomita, S. Nishizawa, T. Katagiri, T. Hoshino, D. Mukunoki, M. Kawai, T. Nagai
   year: 2025
   title: Performance Evaluation of Loop Body Splitting for Fast Modal Filtering in SCALE-DG on A64FX
