@@ -17,7 +17,15 @@ general:
   doi: 10.1175/MWR-D-22-0245.1
 
 papers:
-- authors: Ren, X., Y. Kawai, T. Hoshino, H. Tomita, S., T. Katagiri,  D. Mukunoki, S. Nishizawa
+- authors: Y. Kawai, X. Ren, S. Nishizawa, T. Katagiri, H. Tomita, S.
+  year: 2026
+  title: Comparison of computational advantages of high-order discontinuous Galerkin and conventional finite-volume dynamical cores in atmospheric turbulent simulations
+  journal: J. Meteorol. Soc. Jpn.
+  volume: 104
+  pages: 
+  doi: 10.1007/s44394-026-00023-6
+
+- authors: X. Ren, Y. Kawai, T. Hoshino, H. Tomita, S., T. Katagiri,  D. Mukunoki, S. Nishizawa
   year: 2026
   title: Performance Evaluation of Loop Body Splitting for Fast Modal Filtering in SCALE-DG on A64FX
   journal: IEEE Access
@@ -25,7 +33,7 @@ papers:
   pages: 
   doi: 10.1109/ACCESS.2026.3675604
 
-- authors: Ren, X., Y. Kawai, H. Tomita, S. Nishizawa, T. Katagiri, T. Hoshino, D. Mukunoki, M. Kawai, T. Nagai
+- authors: X. Ren, Y. Kawai, H. Tomita, S. Nishizawa, T. Katagiri, T. Hoshino, D. Mukunoki, M. Kawai, T. Nagai
   year: 2025
   title: Performance Evaluation of Loop Body Splitting for Fast Modal Filtering in SCALE-DG on A64FX
   journal: Proceedings of the 2025 International Conference on High Performance Computing in Asia-Pacific Region Workshops
