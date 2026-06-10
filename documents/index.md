@@ -36,3 +36,9 @@ SCALE-DG users guide
 
 ### Install Document
 [ click here ](install.html)
+
+
+### Technical Assistance Chat
+We are experimentally providing a technical assistance GPT trained on SCALE-DG source codes and documentations.\\
+Note that the answers may no always be correct and use it with caution. 
+* [ Technical Assistance Chat for SCALE-DG ](https://chatgpt.com/g/g-6a28fbfb857081918d922bf39d259ef3-scale-dg-sahoto)
