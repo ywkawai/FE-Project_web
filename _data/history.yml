@@ -1,3 +1,33 @@
+- ver: 1.1.0
+  prev: 1.0.0
+  type: major updates
+  item_felib:
+    - Begin introducing OpenACC/GPU support in FElib, including device-data management and NVIDIA-oriented build and run configurations.
+    - Add modules to smooth atmospheric variables used in physics processes
+    - Add a module for gray radiation scheme with optical-depth calculations
+    - Add a library implementation of the large-scale condensation (LSC) scheme 
+    - Add a none-dynamics option for process-level and idealized physics experiments.
+    - Fix spelling errors in module and public function names
+  item_sample:
+    - Update sample programs for advection problems to support GPU execution and improved numerical-error analysis.
+  item_model:
+    - Add an atmospheric-variable container framework that enables physics components to use atmospheric states that may differ from those used by the DG dynamical core.
+    - Add preprocessing and smoothing options for atmospheric variables used in physics processes, including modal and quasi-global filtering strategies.
+    - Make LSC scheme available as a selectable cloud microphysics scheme.
+    - Add a radiation driver interface, history output, and a test case.
+    - Add driver and variable-manager modules for cumulus parameterization and PBL turbulence parameterization components.
+    - Enhance the spectral analysis program and add detailed documentation, including options for controlling full-data output.
+
+    - Support Tomita08 as a micro cloud physics schemes provided in SCALE library
+    - Add a tool to perform spectral analysis using DG data in 3D regional meshes
+    - Update configuration files for test cases of atmospheric model
+    - Modify build system to shorten the compilation time for each test case in atmospheric model
+    - Ensure to obtain same results when random numbers are used with a fixed seed for initial conditions of test cases
+    - Fix a bug in initializing tracer variables for the case of ATMOS_HYDROMETOR_dry=T but QA > 0
+    - Add a model description and a users guide for SCALE-DG (experimental)
+  item_others:
+    - Improve documentation for advanced SCALE-DG configurations, including physical processes, tracer transport, modal filtering of dynamical and tracer variables, and the shallow-atmosphere approximation. 
+
 - ver: 1.0.0
   prev: 0.9.0
   type: major updates

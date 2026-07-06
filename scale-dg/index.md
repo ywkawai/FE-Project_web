@@ -3,8 +3,7 @@ layout: page
 title: SCALE DG regional and global model (SCALE-DG)
 ---
 
-SCALE-DG is a three-dimensional (3D) regional and global atmospheric model
-in which both of the horizontal and the vertical discretizations are based on the discontinuous Galerkin (DG) method.
+SCALE-DG combines a high-order discontinuous Galerkin dynamical core with the physics infrastructure of the SCALE library, providing a flexible platform for both regional and global atmospheric simulations. 
 
 <!-- Now, only the dynamical process has been implemented in addition to simple turbulent models.
 In the near feature, using the [SCALE library](https://scale.riken.jp) physical processes such as cloud microphysics and radiation will be supported. -->
@@ -19,6 +18,7 @@ In the near feature, using the [SCALE library](https://scale.riken.jp) physical 
   * Process and thread parallelizations are performed by MPI library (we use 2D domain compositions) and OpenMP, respectively.
 * Generate initial data for idealized experiments
 * Treat NetCDF files as input and output data
+* Provide a variety of idealized regional and global benchmark test cases
 
 ### Dynamical core
 * Governing equation: 3D fully compressible non-hydrostatic equations
@@ -40,15 +40,21 @@ In the near feature, using the [SCALE library](https://scale.riken.jp) physical 
 
 ### Physical processes
 
+Physical parameterizations include schemes provided by the [SCALE library](https://scale.riken.jp) as well as simplified schemes implemented within FE-Project/FElib. 
+
+◦: scheme using SCALE library components
+
 * Turbulence process
   * Smagorinsky (1963) and Lilly (1962)-type sub-grid scale model corrected by Brown et al. (1994) and Scotti et al. (1993)
-
-* Cloud microphysics (using the [SCALE library](https://scale.riken.jp))
-  * 3-class 1 moment bulk scheme (Kessler 1969)
-  * 6-class 1 moment bulk scheme (Tomita 2008)
-
+* Cloud microphysics
+  * 3-class 1 moment bulk scheme◦ (Kessler 1969)
+  * 6-class 1 moment bulk scheme◦ (Tomita 2008)
+  * Large-scale condensation scheme
 * Surface flux scheme
   * Simplified bulk formulation of momentum, heat, and latent flux with constant coefficients for idealized experiments
+  * Constant surface-flux option◦ for heat and moisture, while simplified bulk formulation for momentum
+* Radiation scheme
+  * Gray radiation scheme (experimental feature)
 
 ## Documents
 

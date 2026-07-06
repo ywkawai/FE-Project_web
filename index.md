@@ -37,9 +37,9 @@ Affiliation: *1: [RIKEN Center for Computational Science](http://www.r-ccs.riken
 # Acknowledgements
 
 This project is supported by 
-[Developing strategies coupling high-order dynamical core and physics processes considering future high-resolution atmospheric simulations](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-25K17471/)(MEXT KAKENHI Grant Number 25K17471), 
+[Developing strategies for coupling high-order dynamical core and physics processes considering future high-resolution atmospheric simulations](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-25K17471/)(MEXT KAKENHI Grant Number 25K17471), 
 [Moonshot Goal8 Realization of a society safe from the threat of extreme winds and rains by controlling and modifying the weather by 2050](https://www.jst.go.jp/moonshot/program/goal8/) ([Development of an atmospheric simulation model for probability estimation for local atmospheric phenomena](https://moonshot8-modeldev.riken.jp)), 
-[the Transformaive Research Areas B: DNA Climate Science](https://dna-climate.org/) (MEXT KAKENHI Grant Number JP20H05731), 
+[the Transformative Research Areas B: DNA Climate Science](https://dna-climate.org/) (MEXT KAKENHI Grant Number JP20H05731), 
 and  JICA and JST SATREPS (Grant Number: JPMJSA2109). 
 The model development and numerical experiments are
 performed using supercomputers (Oackbridge-CX and Wisteria) at the University of Tokyo and the supercomputer Fugaku at RIKEN (Project ID: ra000005, hp200271, hp230278). 
