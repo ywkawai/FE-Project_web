@@ -1,6 +1,12 @@
+- ver: 1.1.1
+  prev: 1.1.0
+  type: bug fix
+  item_model:
+    - Fix bugs introduced in new variable container framework.
+
 - ver: 1.1.0
   prev: 1.0.0
-  type: major updates
+  type: minor updates
   item_felib:
     - Begin introducing OpenACC/GPU support in FElib, including device-data management and NVIDIA-oriented build and run configurations.
     - Add modules to smooth atmospheric variables used in physics processes

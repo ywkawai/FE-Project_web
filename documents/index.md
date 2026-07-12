@@ -5,7 +5,7 @@ title: Documents
 
 {% assign dlsite = "https://r-ccs-climate.riken.jp/members/kawai/SCALE-DG_doc/" %}
 
-{% assign versions = "1.1.0" | split: "," %}
+{% assign versions = "1.1.1" | split: "," %}
 
 
 ## FE-Project documents
