@@ -3,9 +3,12 @@ layout: page
 title: Documents
 ---
 
+{% comment %}
 {% assign dlsite = "https://r-ccs-climate.riken.jp/members/kawai/SCALE-DG_doc/" %}
+{% endcomment %}
+{% assign dlsite = "https://www.gfd-dennou.org/member/ykawai/work/SCALE-DG/doc/" %}
 
-{% assign versions = "1.1.1" | split: "," %}
+{% assign versions = "1.2.0" | split: "," %}
 
 
 ## FE-Project documents

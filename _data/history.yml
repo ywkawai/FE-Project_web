@@ -1,3 +1,23 @@
+- ver: 1.2.0
+  prev: minor updates
+  type: bug fix
+  item_felib:
+    - Add the MYNN level 2.0 planetary boundary layer turbulence scheme.
+    - Add a moist convective adjustment (MCA) scheme.
+    - Add a two-band infrared and one-band solar radiation scheme.
+    - Add support for idealized solar insolation in the gray-radiation framework.
+    - Extend OpenACC/GPU support to the global HEVE dynamical core.  
+    - Modify consistency with continuity when applying the modal filtering for tracer variables.
+    - Fix the treatment of latent heat of vaporization in the large-scale condensation scheme.
+    - Fix a subroutine to build the hydrostatic basic state when the lapse rate of PT is set to be 0
+  item_model:
+    - Support a single-layer slab ocean model for idealized atmosphere-ocean coupled experiments.
+    - Enable to use newly added physical parameterizations in the model.
+    - Improve the framework for coupling physical processes with the DG dynamical core.
+  item_others:
+    - Enhance documentation for physical parameterizations and model configurations.
+
+
 - ver: 1.1.1
   prev: 1.1.0
   type: bug fix

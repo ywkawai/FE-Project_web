@@ -46,15 +46,21 @@ Physical parameterizations include schemes provided by the [SCALE library](https
 
 * Turbulence process
   * Smagorinsky (1963) and Lilly (1962)-type sub-grid scale model corrected by Brown et al. (1994) and Scotti et al. (1993)
-* Cloud microphysics
-  * 3-class 1 moment bulk scheme◦ (Kessler 1969)
-  * 6-class 1 moment bulk scheme◦ (Tomita 2008)
+  * MYNN level 2.0 boundary layer scheme (Nakanishi and Niino, 2006) 
+* Cloud microphysics process
+  * 3-class 1 moment bulk scheme◦ (Kessler, 1969)
+  * 6-class 1 moment bulk scheme◦ (Tomita, 2008)
   * Large-scale condensation scheme
-* Surface flux scheme
-  * Simplified bulk formulation of momentum, heat, and latent flux with constant coefficients for idealized experiments
-  * Constant surface-flux option◦ for heat and moisture, while simplified bulk formulation for momentum
-* Radiation scheme
-  * Gray radiation scheme (experimental feature)
+* Cumulus convection process
+  * Moist convective adjustment (Manabe et al., 1965)
+* Radiation process
+  * Gray longwave radiation scheme (Byrne and O’Gorman, 2013; Frierson et al., 2006)
+  * Two-band longwave and one-band shortwave scheme (Geen et al., 2016; Vallis et al., 2018)
+* Surface process
+  * Ocean model: slab ocean or fixed initial SST
+  * Surface flux scheme
+    - Simplified bulk formulation of momentum, heat, and latent flux with constant coefficients for idealized experiments
+    - Constant surface-flux option◦ for heat and moisture, while simplified bulk formulation for momentum
 
 ## Documents
 
