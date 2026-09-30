@@ -1,6 +1,6 @@
 - ver: 1.2.0
-  prev: minor updates
-  type: bug fix
+  prev: 1.1.1
+  type: minor updates
   item_felib:
     - Add the MYNN level 2.0 planetary boundary layer turbulence scheme.
     - Add a moist convective adjustment (MCA) scheme.
